@@ -45,6 +45,8 @@ public class Main {
                         double valorConvertido = valorOriginal * taxa;
                         System.out.printf("1 %s = %.2f %s\n", moedaBase, taxa, moedaAlvo);
                         System.out.printf("%.2f %s = %.2f %s\n", valorOriginal, moedaBase, valorConvertido, moedaAlvo);
+                        System.out.println("\nPressione Enter para continuar...");
+                        scanner.nextLine();
                     } catch (InputMismatchException e) {
                         System.out.println("Valor inválido. Por favor, digite um número.");
                         scanner.nextLine(); // limpa entrada inválida

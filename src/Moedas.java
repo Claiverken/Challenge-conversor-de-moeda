@@ -1,2 +1,4 @@
-public record Moedas(String usd, String brl, String ars, String bob, String clp, String cop) {
+import java.util.Map;
+
+public record Moedas(String result, String base_code, Map<String, Double> conversion_rates) {
 }

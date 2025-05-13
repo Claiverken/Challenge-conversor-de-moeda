@@ -26,7 +26,7 @@ public class GeradorDeFile {
 
         try (FileWriter writer = new FileWriter(nomeArquivo)) {
             writer.write(gson.toJson(conversao));
-            System.out.println("Conversão salva com sucesso: " + nomeArquivo);
+//            System.out.println("Conversão salva com sucesso: " + nomeArquivo);
             registrarLog("Conversão salva com sucesso no arquivo: " + nomeArquivo);
         } catch (IOException e) {
             String erro = "Erro ao salvar o arquivo: " + e.getMessage();

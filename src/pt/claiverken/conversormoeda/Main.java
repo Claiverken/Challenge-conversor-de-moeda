@@ -46,7 +46,7 @@ public class Main {
                         scanner.nextLine();
 
                         double valorConvertido = valorOriginal * taxa;
-                        System.out.println("============== \uD83D\uDCB1Conversão feita com sucesso\uD83D\uDCB1 ==============");
+                        System.out.println("\n============== \uD83D\uDCB1Conversão feita com sucesso\uD83D\uDCB1 ==============");
                         System.out.printf("\uD83D\uDCC8 1 %s = %.2f %s\n", moedaBase, taxa, moedaAlvo);
                         System.out.printf("\uD83D\uDCB0 %.2f %s = %.2f %s\n", valorOriginal, moedaBase, valorConvertido, moedaAlvo);
                         System.out.println("=============================================================");
@@ -82,7 +82,7 @@ public class Main {
 
     private static void exibirMenu() {
         System.out.println("---------------------------------------------------------");
-        System.out.println("********* \uD83D\uDCB1 Bem-vindo ao Conversor de pt.claiverken.conversormoeda.Moedas \uD83D\uDCB1 *********");
+        System.out.println("********* \uD83D\uDCB1 Bem-vindo ao Conversor de Moedas \uD83D\uDCB1 *********");
         System.out.println("---------------------------------------------------------");
         System.out.println("============== \uD83D\uDCC4 Menu de Conversão \uD83D\uDCC4 ==============");
         System.out.println("1\uFE0F⃣ Dólar (USD)  >>  Real (BRL)");

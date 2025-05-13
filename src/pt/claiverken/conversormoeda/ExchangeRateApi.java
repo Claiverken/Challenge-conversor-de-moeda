@@ -1,3 +1,5 @@
+package pt.claiverken.conversormoeda;
+
 import com.google.gson.Gson;
 
 import java.net.URI;

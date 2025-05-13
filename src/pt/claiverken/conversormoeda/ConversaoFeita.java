@@ -1,3 +1,5 @@
+package pt.claiverken.conversormoeda;
+
 public record ConversaoFeita(
         String moedaOrigem,
         String moedaDestino,

@@ -1,3 +1,5 @@
+package pt.claiverken.conversormoeda;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -80,7 +82,7 @@ public class Main {
 
     private static void exibirMenu() {
         System.out.println("---------------------------------------------------------");
-        System.out.println("********* \uD83D\uDCB1 Bem-vindo ao Conversor de Moedas \uD83D\uDCB1 *********");
+        System.out.println("********* \uD83D\uDCB1 Bem-vindo ao Conversor de pt.claiverken.conversormoeda.Moedas \uD83D\uDCB1 *********");
         System.out.println("---------------------------------------------------------");
         System.out.println("============== \uD83D\uDCC4 Menu de Conversão \uD83D\uDCC4 ==============");
         System.out.println("1\uFE0F⃣ Dólar (USD)  >>  Real (BRL)");

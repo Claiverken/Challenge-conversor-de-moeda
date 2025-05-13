@@ -78,3 +78,9 @@ Pressione Enter para continuar...</pre>
 1. Clone este repositório:
    ```bash
    git clone https://github.com/Claiverken/Challenge-conversor-de-moeda.git
+
+---
+
+## 🧑‍💻 Autor
+
+Desenvolvido por Claiver — Estudante de Engenharia de Software e entusiasta em desenvolvimento Java.

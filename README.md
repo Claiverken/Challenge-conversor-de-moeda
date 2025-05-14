@@ -66,6 +66,12 @@ Pressione Enter para continuar...</pre>
 
 ---
 
+## 🖼️ Demonstração Visual
+
+![image](https://github.com/user-attachments/assets/8a31a1f7-ae49-4305-91b0-36b98bb71392)
+
+---
+
 ## 💾 Histórico e Logs
 
 - Cada conversão é salva como um arquivo `.json` na pasta `historico/`, com nome baseado em **data/hora, nanoTime e UUID**.
